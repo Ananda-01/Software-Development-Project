@@ -1,0 +1,82 @@
+/* body{
+    background-color: blueviolet;
+} */
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: aqua;
+}
+.logo{
+    width: 100px;
+}
+.menus-container{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    font-size: 20px;
+}
+.banner-container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+.banner-img{
+    width: 100%;
+}
+.title{
+    font-size: 60px;
+    font-weight: bold;
+    color: aqua;
+    text-align: center;
+}
+.description{
+    font-size: 25px;
+}
+button{
+    padding: 15px 25px;
+    border: none;
+    font-size: 18px;
+}
+.doc-btn{
+    background-color: cadetblue;
+}
+.app-btn{
+    background-color:chartreuse;
+}
+.service-card{
+    width: 300px;
+    height: 450px;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.service-img{
+    width: 150px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.input-box{
+    padding: 15px 30px;
+    margin: 10px;
+}
+.contact-container{
+    text-align: center;
+}
+.submit-btn{
+    padding: 5px 15px;
+    width: 20%;
+    background-color: blueviolet;
+    font-size: 23px;
+}
